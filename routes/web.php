@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front-end/konten');
 });
+Route::get('/gesture-text', function () {
+    return view('front-end/gesture-text');
+});
